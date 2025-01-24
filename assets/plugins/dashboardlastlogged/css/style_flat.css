@@ -1,0 +1,23 @@
+
+#DashboardLoggedList .table.data tbody tr:not(:hover) { background-color: #fff }
+#DashboardLoggedList .table.data tbody tr:nth-child(4n+1):not(:hover) { background-color: #f6f8f8 }
+#DashboardLoggedList .table.data tbody tr:nth-child(2n) { background-color: #fff }
+.btn-group .panel-setting:hover {
+  color: #444!important;
+  border:none;
+}
+  .img-user {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+ }
+
+ .table-webusers > tbody > tr > td.text-right {
+ text-align: right!important;
+ }
+#DashboardLoggedList td.actions i.fa {margin-left:6px;}
+#DashboardLoggedList td.actions i.fa.fa-info {margin-left:10px;}
+
+.dark #DashboardLoggedList .table.data tbody tr:not(:hover) { background-color: #272c33}
+.dark #DashboardLoggedList .table.data tbody tr:nth-child(4n+1):not(:hover) { background-color: #383f48}
+.dark #DashboardLoggedList .table.data tbody tr:nth-child(2n) { background-color: #272c33}
